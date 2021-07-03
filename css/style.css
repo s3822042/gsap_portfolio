@@ -74,7 +74,7 @@ body .nav-bar .icon-area .icon-container div {
   margin: 10px 10px;
 }
 
-body .nav-bar .icon-area .icon-container div i {
+body .nav-bar .icon-area .icon-container div a {
   opacity: 0.5;
   margin: 0px auto;
   mix-blend-mode: difference;
