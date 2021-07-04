@@ -499,13 +499,13 @@ canvas {
   height: 100%;
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
-  background-position: center;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .project-display .project-card#fleg {
   width: 100%;
-  height: 330px;
+  height: 300px;
 }
 
 .project-display .project-card#fleg .project-image {
@@ -521,17 +521,18 @@ canvas {
   }
 }
 
-.project-display .project-card#dakonet {
-  height: 330px;
+.project-display .project-card#netflix {
+  width: 100%;
+  height: 300px;
 }
 
-.project-display .project-card#dakonet .project-image {
-  background-position-y: 20px;
-  background-image: url("../img/dakonet.png");
+.project-display .project-card#netflix .project-image {
+  background-position-y: 78px;
+  background-image: url("../img/netflix.png");
 }
 
 @media (max-width: 1424px) {
-  .project-display .project-card#dakonet {
+  .project-display .project-card#netflix {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3/4;
